@@ -90,4 +90,7 @@ const questions = [
         ]
     }
 ];
+
+const questionElement = document.getElementById("question");
+
    
