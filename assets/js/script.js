@@ -61,5 +61,33 @@ const questions = [
             { text: "Idiot Nation", correct: true},
             { text: "Dickies", correct: false},   
         ]
+    },
+    {
+        question: "Who was Green Day's original drummer?",
+        answers: [
+            { text: "Tre Cool", correct: false},
+            { text: "Jason Freese", correct: false},
+            { text: "Jason White", correct: false},
+            { text: "John Kiffmeyer", correct: true},   
+        ]  
+    },
+    {
+        question: "What is Green Day's first hit?",
+        answers: [
+            { text: "Who Wrote Holden Caulfield", correct: false},
+            { text: "Longview", correct: true},
+            { text: "Basket Case", correct: false},
+            { text: "21 Guns", correct: false},
+        ]  
+    },
+    {
+        question: "Which album was Green Day's first?",
+        answers: [
+            { text: "1,039/Smoothed Out Slappy Hours", correct: true},
+            { text: "Saviours", correct: false},
+            { text: "Warning", correct: false},
+            { text: "Cigarettes and Valentines", correct: false},   
+        ]
     }
+];
    
