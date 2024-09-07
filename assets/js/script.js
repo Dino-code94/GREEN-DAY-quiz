@@ -16,5 +16,14 @@ const questions = [
             { text: "Good Riddance", correct: true},
             { text: "Boulevard Of Broken Dreams", correct: false},
         ] 
+    },
+    {
+        question: "which of these 4 songs is not Green Day song?",
+        answers: [
+            { text: "Letterbomb", correct: false},
+            { text: "A Little Boy Named Train", correct: false},
+            { text: "American Eulogy: Mass Hysteria", correct: false},
+            { text: "I Believe In A Thing Called Love", correct: true},   
+        ]
     }
    
