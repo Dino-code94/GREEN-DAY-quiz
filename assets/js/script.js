@@ -92,5 +92,7 @@ const questions = [
 ];
 
 const questionElement = document.getElementById("question");
+const answerButton = document.getElementById("answer-buttons");
+
 
    
