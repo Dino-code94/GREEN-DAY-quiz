@@ -106,11 +106,14 @@ function startQuiz(){
 }
 
 function showQuestion(){
-    let currentQuestion = qiestions[currentQuestionIndex];
+    let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex +1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.
     question;
-}
+
+    
+
+
 
 
 
