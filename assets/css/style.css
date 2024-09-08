@@ -63,6 +63,14 @@ body{
     display: none;
 }
 
+.correct{
+    background: greenyellow;
+}
+
+.incorrect{
+    background: rgb(219, 97, 97);
+}
+
 
 
 
