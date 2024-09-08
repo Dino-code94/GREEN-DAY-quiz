@@ -149,6 +149,15 @@ function selectAnswer(e) {
     });
 }
 
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.lenght){
+        showQuestion();
+    }else{
+        showScore();
+    }
+}
+
 nextButton.addEventListener("click", ()=>{
     if(currentQuestionIndex < questions.lenght){
         handleNextButton();
