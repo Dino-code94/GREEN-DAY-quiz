@@ -149,6 +149,13 @@ function selectAnswer(e) {
     });
 }
 
+function showScore(){
+    resetState();
+    questionElement.innerHTML =`You scored ${score} out of ${questions.Lenght}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = "block";
+}
+
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < questions.lenght){
