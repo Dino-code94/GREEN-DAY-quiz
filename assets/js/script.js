@@ -154,22 +154,22 @@ function selectAnswer(e) {
 function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.
-    lenght}!`;
+    length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
 
 function handleNextButton() {
     currentQuestionIndex++;
-    if (currentQuestionIndex < questions.lenght) {
+    if (currentQuestionIndex < questions.length) {
         showQuestion();
     } else {
         showScore();
     }
 }
 
-nextButton.addEventListener("click", () => {
-    if (currentQuestionIndex < questions.lenght) {
+nextButton.addEventListener("click", ()=>{
+    if (currentQuestionIndex < questions.length) {
         handleNextButton();
     } else {
         startQuiz();
