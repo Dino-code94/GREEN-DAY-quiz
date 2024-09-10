@@ -57,6 +57,15 @@
    - `#fff`, used for next-btn color
    - `#99e129`, ised for correct answer
    - `rgb(224 21 21)`, used for incorrect answer
+
+## Tools & Technologies
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for main structure and content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) layout and desing.
+- [GIT](https://git-scm.com) version control system (Git add , Git commit and Git push).
+- [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) used for responsive layout
+- [GitHub](https://github.com) used for - create, change, merge, and collaborate with files and code.
+- [GutHub Pages](https://pages.github.com) used for hosting the page.
+- [VsCode](https://code.visualstudio.com/) used for operations like debugging, task running, and version control.
     
    
 
