@@ -1,14 +1,19 @@
+/*-------------------------- Main styling ------------------------*/
 * {
     margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    padding:0;
+    font-family: cursive;
     box-sizing: border-box;
+    font-size: x-large;
+    
 }
+/*------------------------------------ Body background --------------------*/
 body{
-    background-color: blueviolet;
+    background-color: #232224;
 }
+/*----------------------------- App styling----------------------------*/
 .app{
-    background: #fff;
+    background: #848afa;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -22,6 +27,7 @@ body{
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
 }
+/*---------------------- Quiz and h1 styling ---------------*/
 .quiz{
     padding: 20px 0;
 }
@@ -30,8 +36,10 @@ body{
     color: #001e4d;
     font-weight: 600;
 }
+
+/*----------------------------- Btn styling --------------*/
 .btn{
-    background: #fff;
+    background: #e1d2d2;
     color: #222;
     font-weight: 500;
     width: 100%;
@@ -63,12 +71,14 @@ body{
     display: none;
 }
 
+/*-------------------------- Styling colors for correct and incorrect answers -------------*/
+
 .correct{
-    background: greenyellow;
+    background: #99e129;
 }
 
 .incorrect{
-    background: rgb(219, 97, 97);
+    background: rgb(224 21 21);
 }
 
 

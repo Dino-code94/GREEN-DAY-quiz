@@ -18,7 +18,7 @@ const questions = [
         ]
     },
     {
-        question: "which of these 4 songs is not Green Day song?",
+        question: "Which of these 4 songs is not Green Day song?",
         answers: [
             { text: "Letterbomb", correct: false },
             { text: "A Little Boy Named Train", correct: false },
@@ -45,11 +45,11 @@ const questions = [
         ]
     },
     {
-        question: "Name this song: Get my television fix sitting on my crucifix?",
+        question: "Name this song: GET MY TELEVISION FIX SITTING ON MY CRUCIFIX?",
         answers: [
             { text: "Holiday", correct: false },
             { text: "When I Come Around", correct: false },
-            { text: "Church on Sunday", correct: false },
+            { text: "Church On Sunday", correct: false },
             { text: "Jesus Of Suburbia", correct: true },
         ]
     },
@@ -86,7 +86,7 @@ const questions = [
             { text: "1,039/Smoothed Out Slappy Hours", correct: true },
             { text: "Saviours", correct: false },
             { text: "Warning", correct: false },
-            { text: "Cigarettes and Valentines", correct: false },
+            { text: "Cigarettes And Valentines", correct: false },
         ]
     }
 ];
