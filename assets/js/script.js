@@ -1,3 +1,4 @@
+//------------------ Adding questions and answers -------------------//
 const questions = [
     {
         question: "What is the longest Green Day song?",
@@ -91,12 +92,18 @@ const questions = [
     }
 ];
 
+//----------------------- Adding variabels for "question", "answer-button, and "nex-btn"----------------------//
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
+//----------------- Adding variables to astore question.Index and score----------------//
+
 let currentQuestionIndex = 0;
 let score = 0;
+
+//---------------- Adding function startQuiz and show question -----------------------------//
 
 function startQuiz() {
     currentQuestionIndex = 0;
@@ -105,13 +112,15 @@ function startQuiz() {
     showQuestion();
 }
 
+//-------------------------- Adding function showQuestion and resetState ----------------------//
+
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
     
-
+//-------------------- Adding function to display answers and select answer ------------------// 
 
     currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
@@ -125,12 +134,16 @@ function showQuestion() {
     });
 }
 
+//------------------------ This function will reset all previous questions and answers ---------------//
+
 function resetState() {
     nextButton.style.display = "none";
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
+
+//--------------------- Adding functions selectAnswer, correct(Green), incorrect(Red), function score++ will increase score by one --------------//
 
 function selectAnswer(e) {
     const selectedBtn = e.target;
@@ -141,6 +154,9 @@ function selectAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
+
+ //------------------- This function will check dataSet and if it is true color will be green and all buttons will be blocked, nextButton will be displayed and player can go to next question -------------*/
+
     Array.from(answerButtons.children).forEach(button => {
         if (button.dataset.correct === "true") {
             button.classList.add("correct");
@@ -150,7 +166,9 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
     
 }
-    
+ 
+//------------------------ This function will display the score and this function will display Play Again button, next button is blocked ------------//   
+
 function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.
@@ -158,6 +176,8 @@ function showScore() {
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
+
+//--------------------------- This function will increase question index by one when player click next this function will show the score ---------------------------------------*/
 
 function handleNextButton() {
     currentQuestionIndex++;
@@ -168,6 +188,8 @@ function handleNextButton() {
     }
 }
 
+//--------------------------- Function nextButton "click" and if function to check current index, function startQuiz will restart the quiz-----------//   
+
 nextButton.addEventListener("click", ()=>{
     if (currentQuestionIndex < questions.length) {
         handleNextButton();
@@ -176,6 +198,7 @@ nextButton.addEventListener("click", ()=>{
     }
 });
 
+/*------------ Start quiz function ---------------------------------*/
 
 startQuiz();
 
