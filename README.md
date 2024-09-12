@@ -110,6 +110,17 @@ Bellow is the recommended [JSHint](https://jshint.com/) results
 ### Content
 
   - All of the content was my personal knowledge about Green day , with little online research, google, youtube, and Green day pages.
+
+## Deployment
+
+- The site was deployed to GitHub pages as follows:
+
+ - In the GitHub repository, navigate to the Settings tab
+ - Open the "Pages" page in the sidebar
+ - From the source section drop-down menu, select the Main Branch
+ - Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here: https://dino-code94.github.io/GREEN-DAY-quiz/
   
 
 
