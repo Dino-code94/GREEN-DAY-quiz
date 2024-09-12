@@ -4,7 +4,7 @@
 
    -This web quiz contains numbers of simple question about Green day
 
-   -This web quiz will test your knowlage about Green day
+   
 
 ## Features
 
@@ -65,7 +65,52 @@
 - [JavaScript](https://simple.wikipedia.org/wiki/JavaScript) used for responsive layout
 - [GitHub](https://github.com) used for - create, change, merge, and collaborate with files and code.
 - [GutHub Pages](https://pages.github.com) used for hosting the page.
-- [VsCode](https://code.visualstudio.com/) used for operations like debugging, task running, and version control.
+- [VsCode](https://code.visualstudio.com/) used for operations like debugging, task running, and version control
+
+## Testing
+
+## Code Validation
+
+### HTML
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org/) to validate HTML
+
+| Report | Screenshot |
+| :---: | :---: |
+| index.html | ![screenshot](assets/images/documentation/HTML-validator.png) |
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/) to validate all of my CSS files.
+
+| Report | Screenshot |
+| :---: | :---: |
+| style.css | ![screenshot](assets/images/documentation/CSS-validator.png) |
+
+### JavaScript
+
+Bellow is the recommended [JSHint](https://jshint.com/) results
+
+| Report | Screenshot |
+| :---: | :---: |
+| script.js | ![screenshot](assets/images/documentation/JSHint.png) |
+
+
+
+   
+
+
+
+
+
+
+
+
+   
+
+
+
+
     
    
 
