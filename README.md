@@ -1,8 +1,13 @@
 # GREEN DAY quiz
 
-   -This web quiz is about God’s favorite band Green day
+   - This web quiz is about God’s favorite band Green day
 
-   -This web quiz contains numbers of simple question about Green day
+   - This web quiz contains numbers of simple question about Green day
+
+   - With this web quiz I didn't target a specific audience like old fans or hard core Green Day fans,
+     this web quiz is for all kinds of people, so the idea was to keep it very simple, 
+     the quiz contains 10 questions and they are very easy, I didn't go into their old staff,
+     questions are about popular songs, so that player can go through and maybe learn something new about them, become a new fan or just have some fun.
 
    
 
@@ -45,9 +50,9 @@
 
 ## Typography 
 
-   - I used the font family called 'cursive': font that emulate handwritingg
+   - I used the font family called - `"Playpen Sans" cursive`, font that emulate handwritingg
    - I uset font size x-large
-
+   
 ## Colour Scheme
   
    - `#232224`, used for body background
@@ -97,13 +102,13 @@ Bellow is the recommended [JSHint](https://jshint.com/) results
 
 ## Manual testing
 
-   -I have tested the desktop and mobile version of the website with Chrome, Firefox and Edge on a Windows Computer.
+   - I have tested the desktop and mobile version of the website with Chrome, Firefox and Edge on a Windows Computer.
    
-   -I have tested the mobile version with Chrome and Firefox on an android device.
+   - I have tested the mobile version with Chrome and Firefox on an android device.
    
-   -I have shared the website with multiple users to confirm the website functionality on different devices and to get feedback on their experience.
+   - I have shared the website with multiple users to confirm the website functionality on different devices and to get feedback on their experience.
    
-   -I have tested all the links on the website.
+   - I have tested all the links on the website.
 
 ## Credits
 
