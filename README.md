@@ -105,6 +105,14 @@ Bellow is the recommended [JSHint](https://jshint.com/) results
    
    -I have tested all the links on the website.
 
+## Credits
+
+### Content
+
+  - All of the content was my personal knowledge about Green day , with little online research, google, youtube, and Green day pages.
+  
+
+
 
 
    
