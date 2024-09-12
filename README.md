@@ -95,6 +95,16 @@ Bellow is the recommended [JSHint](https://jshint.com/) results
 | :---: | :---: |
 | script.js | ![screenshot](assets/images/documentation/JSHint.png) |
 
+## Manual testing
+
+   -I have tested the desktop and mobile version of the website with Chrome, Firefox and Edge on a Windows Computer.
+   
+   -I have tested the mobile version with Chrome and Firefox on an android device.
+   
+   -I have shared the website with multiple users to confirm the website functionality on different devices and to get feedback on their experience.
+   
+   -I have tested all the links on the website.
+
 
 
    
